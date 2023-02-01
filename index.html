@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" media="screen">
+</head>
+<body>
+    <section class="container">
+        <h1>FORMULÁRIO DE CADASTRO</h1>
+        <ul>
+            <li>Preencha todos os campos</li>
+            <li>Usuário só poderá conter letras e números</li>
+            <li>Usuário deve conter entre 3 e 12 caractéres</li>
+            <li>Senha deve conter entre 6 e 12 caractéres</li>
+        </ul>
+        <form action="#" method="post">
+            <label for="inome">
+                Nome: 
+                <input type="text" id="inome" 
+                placeholder="digite seu nome">
+            </label>
+            <label for="isobrenome">
+                Sobrenome: 
+                <input type="text" id="isobrenome" 
+                placeholder="digite seu sobrenome">
+            </label>
+            <label for="icpf">
+                CPF: 
+                <input type="text" id="icpf"
+                placeholder="digite seu cpf">
+            </label>
+            <label for="iusuario">
+                Usuário: 
+                <input type="text" id="iusuario"
+                placeholder="digite seu usuário">
+            </label>
+            <label for="isenha">
+                Senha: 
+                <input type="password" id="isenha"
+                placeholder="digite sua senha">
+            </label>
+            <label for="isenha2">
+                Repetir senha: 
+                <input type="password" id="isenha2"
+                placeholder="repita sua senha">
+            </label>
+            <input type="button" id="ibutton" value="Enviar">
+        </form>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
