@@ -79,4 +79,5 @@ form input[type=button]:hover{
 .div_erro{
     font-size: 13px;
     color: tomato;
+    margin: 5px;
 }
