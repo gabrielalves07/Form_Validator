@@ -64,7 +64,7 @@ form input:focus{
     background-color: white;
 }
 
-form input[type=button]{
+form input[type=submit]{
     margin-top: 13px;
     margin-bottom: 8px;
     background-color: var(--primary-color);
@@ -74,4 +74,9 @@ form input[type=button]{
 
 form input[type=button]:hover{
     background-color: #4e7aff;
+}
+
+.div_erro{
+    font-size: 13px;
+    color: tomato;
 }
